@@ -1,16 +1,82 @@
-# sitelogger
+# Site Inspection Logger
 
-A new Flutter project.
+A Flutter application designed to help construction site staff log safety issues and allow safety officers to review, track, and resolve them.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+The Site Inspection Logger app digitizes the process of reporting and resolving safety issues on-site.
+It comes with two user roles:
 
-A few resources to get you started if this is your first Flutter project:
+### Staff
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Logs new safety issues.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Views all previously logged issues.
+
+### Safety Officer
+
+Monitors all issues.
+
+Filters issues (All, Pending, Resolved).
+
+Marks issues as “Safe” after verification.
+
+All issue data is stored locally using SharedPreferences.
+
+
+## Overview
+
+Login Credentials
+
+Staff   : 	staff@gmail.com  | Staff@123
+Officer	: officer@gmail.com	 | Officer@123
+
+
+
+## App Modules & Working Flow
+
+1️⃣ Login Flow
+
+User enters email and password
+
+App checks credentials
+
+Redirects:
+
+Staff → Staff Dashboard
+
+Officer → Safety Officer Dashboard
+
+2️⃣ Staff Workflow
+
+Login
+
+Click Log Issue
+
+Fill out safety issue form
+
+Issue saved locally (status = Pending)
+
+Appears on Officer’s dashboard instantly
+
+3️⃣ Safety Officer Workflow
+
+Login
+
+Dashboard displays statistics
+
+Tap any card → View filtered issues
+
+Swipe right on Pending issue → Mark Safe
+
+Issue moves to Resolved list
+
+
+
+
+
+
+
+
+
+
