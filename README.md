@@ -24,11 +24,14 @@ Marks issues as “Safe” after verification.
 All issue data is stored locally using SharedPreferences.
 
 
-## Overview
 
-Login Credentials
 
+## Login Credentials
+
+### Staff Credentials
 Staff   : 	staff@gmail.com  | Staff@123
+
+### Officer Credentials
 Officer	: officer@gmail.com	 | Officer@123
 
 
