@@ -74,6 +74,23 @@ Swipe right on Pending issue → Mark Safe
 
 Issue moves to Resolved list
 
+## Local Data Storage
+
+All data is stored locally using SharedPreferences, where each issue includes:
+
+🆔 ID
+
+📝 Description
+
+🔥 Severity
+
+⚠️ Status (Pending / Safe)
+
+⏰ Timestamp
+
+👤 Reported By
+
+
 
 
 
